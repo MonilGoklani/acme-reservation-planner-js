@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: verdana;
+        padding: 1rem;
+      }
+      .selected {
+        background-color: rgb(218, 37, 148);
+      }
+      main {
+        display: flex;
+      }
+      main > * {
+        flex: 1;
+      }
+    </style>
+    <script src="/dist/main.js" defer></script>
+  </head>
+  <body>
+    <h1>Acme Reservation Planner</h1>
+    <main>
+      <div>
+        <h2>Users</h2>
+        <ul id="user-list"></ul>
+      </div>
+      <div>
+        <h2>Restaurants</h2>
+        <ul id="restaurant-list"></ul>
+      </div>
+      <div>
+        <h2>Reservations</h2>
+        <ul id="reservation-list"></ul>
+      </div>
+    </main>
+  </body>
+</html>
